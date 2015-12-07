@@ -1,0 +1,13 @@
+{
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "default_locale": "fr",
+  "version": "1",
+  "icons": { "128": "medias/icons/icon_128.png", "64":"medias/icons/icon_64.png", "32":"medias/icons/icon_32.png", "16":"medias/icons/icon_16.png" },
+  "content_scripts": [{
+  	"css": [ "pluginstyle.css" ],
+    "matches": ["https://www.wattpad.com/*"],
+    "js": [ "content.js", "dict.js", "lib/jquery.min.js", "lib/autosize.min.js", "lib/jquery-fieldselection.min.js", "lib/jquery.translate.js"]
+  }],
+  "manifest_version": 2
+}

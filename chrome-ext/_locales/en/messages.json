@@ -1,0 +1,9 @@
+{
+  "appName": {
+    "message": "Select fiction on WattPad",
+    "description": "Select fiction on WattPad"
+  },
+  "appDesc": {
+    "message": "Use javascript to enable selection (cursor overlay) on fiction, on WattPad (and enable copy-past)",
+    "description":"Use javascript to enable selection (cursor overlay) on fiction, on WattPad (and enable copy-past)"
+  }
